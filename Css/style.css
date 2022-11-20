@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color {
+    color: #AF44AE;
+    color: #EB429D;
+    color: #D38DAC;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #AF44AE, #EB429D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.card h1 {
+    text-align: center;
+    margin: 25px 0px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.btn-1 {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 3px;
+    background: linear-gradient(to right, #AF44AE, #EB429D);
+}
+
+.btn-2 {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #E8E8E8;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background: none;
+}
+
+.btn-1,
+.btn-2:hover {
+    cursor: pointer;
+}
+
+.form-group input {
+    display: block;
+    width: 90%;
+    margin-left: 19px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    outline: none;
+    color: #BCBCBC;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.text {
+    margin-left: 19px;
+    margin-bottom: 15px;
+}
+
+.text a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #D38DAC;
+    font-weight: 500;
+}
+
+.btn-3 button {
+    width: 90%;
+    margin-left: 19px;
+    text-align: center;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(to right, #AF44AE, #EB429D);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.btn-3 button:hover {
+    cursor: pointer;
+}
+
+.end {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.end a {
+    text-decoration: none;
+    color: #EB429D;
+    font-weight: 500;
+}
